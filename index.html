@@ -38,8 +38,9 @@
     </div>
 
     <script>
- let sum =0;
+let sum =0;
        function add(){
+        
        sum++
 let sum2 = document.getElementById("display");
     sum2.value=sum;
@@ -47,13 +48,14 @@ let sum2 = document.getElementById("display");
        }
 
        function sub(){
+       
             sum--
             let sum2 = document.getElementById("display");
     sum2.value=sum;
        }
 
        function reset(){
-        
+        sum=0;
         let sum2 = document.getElementById("display");
     sum2.value="";
        }
